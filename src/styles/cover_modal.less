@@ -1,0 +1,18 @@
+@border-width-base: 0;
+@text-color: red;
+
+@import '~antd/lib/modal/style/index';
+
+.ant-modal {
+  &-header {
+    border-bottom: none;
+  }
+
+  &-title {
+    color: red;
+  }
+}
+
+
+// 由于less 暂不支持变量defalt和important
+// 只能去覆盖样式
