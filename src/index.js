@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles/index.less';
 // import App from './App';
-import Modal from './Modal';
+import Modal from './pages/Modal';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Modal />, document.getElementById('root'));

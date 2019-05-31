@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
 
-import Modal from 'antd/lib/modal'
-import './styles/modal.less';
-// import './styles/cover_modal.less';
+import Modal from '../components/Modal'
 
-export default function SysUpdateLogModal() {
+export default function PageModal() {
   const [visible, setVisible] = useState(false);
 
   return (
