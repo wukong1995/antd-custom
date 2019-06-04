@@ -1,6 +1,5 @@
 import React from 'react'
-
-import message from '../components/Message'
+import { message } from 'antd-custom'
 
 class PageMessage extends React.Component {
   warning = () => {

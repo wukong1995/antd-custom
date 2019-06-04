@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import Modal from '../components/Modal'
+import { Modal } from 'antd-custom'
 
 export default function PageModal() {
   const [visible, setVisible] = useState(false);

@@ -8,6 +8,7 @@
     "@typescript-eslint/eslint-plugin": "1.6.0",
     "@typescript-eslint/parser": "1.6.0",
     "antd": "^3.18.1",
+    "antd-custom": "https://github.com/wukong1995/antd-custom-build",
     "babel-eslint": "10.0.1",
     "babel-jest": "^24.8.0",
     "babel-loader": "8.0.5",
@@ -131,6 +132,7 @@
     ]
   },
   "devDependencies": {
+    "babel-plugin-import": "^1.12.0",
     "less-loader": "^5.0.0"
   }
 }
