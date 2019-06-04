@@ -1,10 +1,10 @@
 import React from 'react'
 
-import Toast from '../components/Toast'
+import message from '../components/Message'
 
-class PageToast extends React.Component {
+class PageMessage extends React.Component {
   warning = () => {
-    Toast.warning('This is a normal message', 100)
+    message.warning('This is a normal message', 100)
   }
 
   render() {
@@ -14,5 +14,5 @@ class PageToast extends React.Component {
   }
 }
 
-export default PageToast
+export default PageMessage
 

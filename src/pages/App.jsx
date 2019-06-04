@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from '../../public/logo.svg';
 import Modal from './Modal'
-import Toast from './Toast'
+import Message from './Message'
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         </a>
       </header>
       <Modal />
-      <Toast />
+      <Message />
     </div>
   );
 }
