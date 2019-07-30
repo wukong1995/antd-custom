@@ -2,6 +2,7 @@ import React from 'react';
 // import logo from '../../public/logo.svg';
 import Modal from './Modal'
 import Message from './Message'
+import Sortable from './Sortable'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       </header>
       <Modal />
       <Message />
+      <Sortable />
     </div>
   );
 }
